@@ -106,6 +106,21 @@ After using this simulation, students should understand:
 4. Real-world control challenges
 5. Importance of system modeling
 
+## Demo Video
+
+🎥 **Watch the PID Tuning Demo: `demo.mp4`**
+
+The demo video showcases two scenarios to help you understand the impact of PID tuning:
+
+### 🎯 **Well-Tuned System Example**
+- Smooth response to setpoint changes
+- Quick settling time with minimal overshoot
+- Effective disturbance rejection
+
+### ⚠️ **Poorly-Tuned System Example**
+- Excessive oscillations
+- Large overshoot and long settling times
+
 ## Troubleshooting
 
 **Common Issues:**
