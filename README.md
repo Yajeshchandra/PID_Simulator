@@ -41,17 +41,23 @@ Keep the rod at setpoint despite:
 
 ## Quick Start
 
-1. Install requirements:
+1. Clone Repo
+   ```bash
+   git clone https://github.com/your-username/pid-motor-rod-simulation.git
+   cd PID_Simulator
+   ```
+
+2. Install requirements (Python 3.12.6 or compatible will work for simulation):
    ```
    pip install -r requirements.txt
    ```
 
-2. Run the simulation:
+3. Run the simulation:
    ```
    python main.py
    ```
 
-## For Students: Implementing Your PID Controller
+## Implementing Your PID Controller
 
 ### Step 1: Open the Template
 The main PID controller file (`pid_controller.py`) is now a template with TODOs that you need to complete.
@@ -66,6 +72,20 @@ Edit `pid_controller.py` and fill in the TODOs in the `PIDController` class:
 ### Step 3: Test Your Implementation
 Run `python main.py` and use the GUI to test and tune your PID controller.
 
+## Demo Video
+
+🎥 **Watch the PID Tuning Demo: `demo.mp4`**
+
+The demo video showcases two scenarios to help you understand the impact of PID tuning:
+
+### **Well-Tuned System Example**
+- Smooth response to setpoint changes
+- Quick settling time with minimal overshoot
+- Effective disturbance rejection
+
+### **Poorly-Tuned System Example**
+- Excessive oscillations
+- Large overshoot and long settling times
 
 ## GUI Features
 
@@ -105,21 +125,6 @@ After using this simulation, students should understand:
 3. Practical tuning procedures
 4. Real-world control challenges
 5. Importance of system modeling
-
-## Demo Video
-
-🎥 **Watch the PID Tuning Demo: `demo.mp4`**
-
-The demo video showcases two scenarios to help you understand the impact of PID tuning:
-
-### 🎯 **Well-Tuned System Example**
-- Smooth response to setpoint changes
-- Quick settling time with minimal overshoot
-- Effective disturbance rejection
-
-### ⚠️ **Poorly-Tuned System Example**
-- Excessive oscillations
-- Large overshoot and long settling times
 
 ## Troubleshooting
 
